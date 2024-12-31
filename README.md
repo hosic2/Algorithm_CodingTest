@@ -11,6 +11,7 @@
 |10101. 삼각형 외우기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10101.%E2%80%85%EC%82%BC%EA%B0%81%ED%98%95%E2%80%85%EC%99%B8%EC%9A%B0%EA%B8%B0/README.md)|
 |10171. 고양이|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/README.md)|
 |10172. 개|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10172.%E2%80%85%EA%B0%9C/%EA%B0%9C.cc)|
+|1037. 약수|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/1037.%E2%80%85%EC%95%BD%EC%88%98/%EC%95%BD%EC%88%98.py)|
 |10430. 나머지|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10430.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80/README.md)|
 |10699. 오늘 날짜|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10699.%E2%80%85%EC%98%A4%EB%8A%98%E2%80%85%EB%82%A0%EC%A7%9C/%EC%98%A4%EB%8A%98%E2%80%85%EB%82%A0%EC%A7%9C.py)|
 |10718. We love kriii|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Bronze/10718.%E2%80%85We%E2%80%85love%E2%80%85kriii/README.md)|
