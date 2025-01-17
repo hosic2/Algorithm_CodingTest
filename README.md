@@ -141,6 +141,7 @@
 | ----- | ----- |
 |1002. 터렛|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1002.%E2%80%85%ED%84%B0%EB%A0%9B/README.md)|
 |1010. 다리 놓기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1010.%E2%80%85%EB%8B%A4%EB%A6%AC%E2%80%85%EB%86%93%EA%B8%B0/README.md)|
+|1018. 체스판 다시 칠하기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1018.%E2%80%85%EC%B2%B4%EC%8A%A4%ED%8C%90%E2%80%85%EB%8B%A4%EC%8B%9C%E2%80%85%EC%B9%A0%ED%95%98%EA%B8%B0/%EC%B2%B4%EC%8A%A4%ED%8C%90%E2%80%85%EB%8B%A4%EC%8B%9C%E2%80%85%EC%B9%A0%ED%95%98%EA%B8%B0.py)|
 |1026. 보물|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1026.%E2%80%85%EB%B3%B4%EB%AC%BC/%EB%B3%B4%EB%AC%BC.java)|
 |1065. 한수|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1065.%E2%80%85%ED%95%9C%EC%88%98/README.md)|
 |10773. 제로|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/10773.%E2%80%85%EC%A0%9C%EB%A1%9C/README.md)|
