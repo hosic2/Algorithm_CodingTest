@@ -60,7 +60,6 @@ def main():
                 problem_link = parse.quote(os.path.join(root, file).replace("\\", "/"))
                 content += "| {} | [문제 보러가기](./{}) |\n".format(problem_number, problem_link)
                 solveds.append(category)
-                print("category : " + category)
 
         # 토글 종료 태그
         content += "</details>\n"
