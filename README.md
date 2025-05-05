@@ -149,6 +149,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1011. Fly me to the Alpha Centauri|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Gold/1011.%E2%80%85Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri/Fly%E2%80%85me%E2%80%85to%E2%80%85the%E2%80%85Alpha%E2%80%85Centauri.java)|
+|10986. 나머지 합|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Gold/10986.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80%E2%80%85%ED%95%A9/%EB%82%98%EB%A8%B8%EC%A7%80%E2%80%85%ED%95%A9.py)|
 |11729. 하노이 탑 이동 순서|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Gold/11729.%E2%80%85%ED%95%98%EB%85%B8%EC%9D%B4%E2%80%85%ED%83%91%E2%80%85%EC%9D%B4%EB%8F%99%E2%80%85%EC%88%9C%EC%84%9C/%ED%95%98%EB%85%B8%EC%9D%B4%E2%80%85%ED%83%91%E2%80%85%EC%9D%B4%EB%8F%99%E2%80%85%EC%88%9C%EC%84%9C.java)|
 |13904. 과제|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Gold/13904.%E2%80%85%EA%B3%BC%EC%A0%9C/%EA%B3%BC%EC%A0%9C.java)|
 |1715. 카드 정렬하기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Gold/1715.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/%EC%B9%B4%EB%93%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.java)|
