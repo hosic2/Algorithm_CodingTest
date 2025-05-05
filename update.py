@@ -3,16 +3,17 @@
 import os
 from urllib import parse
 
-HEADER = """# 
+HEADER="""# 
 # 백준 & 프로그래머스 문제 풀이 목록
+
 """
 
 def main():
     content = ""
     content += HEADER
-
-    directories = []
-    solveds = []
+    
+    directories = [];
+    solveds = [];
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -33,8 +34,7 @@ def main():
         
         if directory == '.':
             continue
-
-        # 카테고리별 제목 및 표 생성
+            
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
                 content += "## 📚 {}\n".format(directory)
@@ -43,29 +43,18 @@ def main():
                     content += "### 🚀 Lv{}\n".format(directory)
                 else:
                     content += "### 🚀 {}\n".format(directory)
-
-            # 토글을 위한 details, summary 추가
-            content += "<details>\n"
-            content += "  <summary>문제 목록 보기</summary>\n"
+                content += "| 문제번호 | 링크 |\n"
+                content += "| ----- | ----- |\n"
             directories.append(directory)
-
-            # 문제 목록을 표로 작성
-            content += "| 문제번호 | 링크 |\n"
-            content += "| ----- | ----- |\n"
 
         for file in files:
             if category not in solveds:
-                problem_number = os.path.basename(file).split('.')[0]
-                # 문제 번호와 링크 처리
-                problem_link = parse.quote(os.path.join(root, file).replace("\\", "/"))
-                content += "| {} | [문제 보러가기](./{}) |\n".format(problem_number, problem_link)
+                content += "|{}|[문제 보러가기]({})|\n".format(category, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
-
-        # 토글 종료 태그
-        content += "</details>\n"
+                print("category : " + category)
 
     with open("README.md", "w") as fd:
         fd.write(content)
-
+        
 if __name__ == "__main__":
     main()
