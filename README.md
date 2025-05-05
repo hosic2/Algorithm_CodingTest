@@ -1,6 +1,13 @@
 # 
 # 백준 & 프로그래머스 문제 풀이 목록
 
+### 🚀 SWEA
+| 문제번호 | 링크 |
+| ----- | ----- |
+### 🚀 D2
+| 문제번호 | 링크 |
+| ----- | ----- |
+|5186. ［파이썬 S／W 문제해결 구현］ 1일차 － 이진수2|[문제 보러가기](./SWEA/D2/5186.%E2%80%85%EF%BC%BB%ED%8C%8C%EC%9D%B4%EC%8D%AC%E2%80%85S%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B5%AC%ED%98%84%EF%BC%BD%E2%80%851%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%9D%B4%EC%A7%84%EC%88%982/%EF%BC%BB%ED%8C%8C%EC%9D%B4%EC%8D%AC%E2%80%85S%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B5%AC%ED%98%84%EF%BC%BD%E2%80%851%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%9D%B4%EC%A7%84%EC%88%982.py)|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 |
