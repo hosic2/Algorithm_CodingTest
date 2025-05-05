@@ -53,7 +53,10 @@ def main():
 
         for file in files:
             if category not in solveds:
-                content += "|{}|[문제 보러가기]({})|\n".format(category, parse.quote(os.path.join(root, file)))
+                problem_number = os.path.basename(file).split('.')[0]
+                # 제대로된 링크와 문제 번호 포맷 추가
+                problem_link = parse.quote(os.path.join(root, file))
+                content += "| {} | [문제 보러가기](./{}) |\n".format(problem_number, problem_link)
                 solveds.append(category)
                 print("category : " + category)
 
