@@ -47,15 +47,17 @@ def main():
             # 토글을 위한 details, summary 추가
             content += "<details>\n"
             content += "  <summary>문제 목록 보기</summary>\n"
+            directories.append(directory)
+
+            # 문제 목록을 표로 작성
             content += "| 문제번호 | 링크 |\n"
             content += "| ----- | ----- |\n"
-            directories.append(directory)
 
         for file in files:
             if category not in solveds:
                 problem_number = os.path.basename(file).split('.')[0]
-                # 제대로된 링크와 문제 번호 포맷 추가
-                problem_link = parse.quote(os.path.join(root, file))
+                # 문제 번호와 링크 처리
+                problem_link = parse.quote(os.path.join(root, file).replace("\\", "/"))
                 content += "| {} | [문제 보러가기](./{}) |\n".format(problem_number, problem_link)
                 solveds.append(category)
                 print("category : " + category)
