@@ -3,17 +3,16 @@
 import os
 from urllib import parse
 
-HEADER="""# 
+HEADER = """# 
 # 백준 & 프로그래머스 문제 풀이 목록
-
 """
 
 def main():
     content = ""
     content += HEADER
-    
-    directories = [];
-    solveds = [];
+
+    directories = []
+    solveds = []
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -34,7 +33,8 @@ def main():
         
         if directory == '.':
             continue
-            
+
+        # 카테고리별 제목 및 표 생성
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
                 content += "## 📚 {}\n".format(directory)
@@ -43,8 +43,12 @@ def main():
                     content += "### 🚀 Lv{}\n".format(directory)
                 else:
                     content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 링크 |\n"
-                content += "| ----- | ----- |\n"
+
+            # 토글을 위한 details, summary 추가
+            content += "<details>\n"
+            content += "  <summary>문제 목록 보기</summary>\n"
+            content += "| 문제번호 | 링크 |\n"
+            content += "| ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
@@ -53,8 +57,11 @@ def main():
                 solveds.append(category)
                 print("category : " + category)
 
+        # 토글 종료 태그
+        content += "</details>\n"
+
     with open("README.md", "w") as fd:
         fd.write(content)
-        
+
 if __name__ == "__main__":
     main()
