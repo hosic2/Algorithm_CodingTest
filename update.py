@@ -4,7 +4,7 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# 백준 & 프로그래머스 문제 풀이 목록
+# 문제 풀이 목록
 
 """
 
@@ -36,7 +36,7 @@ def main():
             continue
             
         if directory not in directories:
-            if directory in ["백준", "프로그래머스"]:
+            if directory in ["백준", "프로그래머스", "SWEA"]:
                 content += "## 📚 {}\n".format(directory)
             else:
                 if directory in [0, 1, 2, 3, 4, 5, '0', '1', '2', '3', '4', '5']:
