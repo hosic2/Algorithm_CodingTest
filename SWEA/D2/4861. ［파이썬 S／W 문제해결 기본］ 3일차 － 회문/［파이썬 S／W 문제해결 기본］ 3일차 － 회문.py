@@ -20,5 +20,7 @@ for i in range(t):
             if temp == temp[::-1]:
                 answer = temp
                 break
-                
+        
+        if answer != '':
+            break
     print(f'#{i + 1}', answer)
