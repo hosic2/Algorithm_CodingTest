@@ -302,6 +302,7 @@
 |1764. 듣보잡|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/%EB%93%A3%EB%B3%B4%EC%9E%A1.py)|
 |18110. solved．ac|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac/solved%EF%BC%8Eac.py)|
 |18258. 큐 2|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/18258.%E2%80%85%ED%81%90%E2%80%852/%ED%81%90%E2%80%852.py)|
+|1874. 스택 수열|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1874.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%85%EC%88%98%EC%97%B4/README.md)|
 |18870. 좌표 압축|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/18870.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%95%95%EC%B6%95/README.md)|
 |1920. 수 찾기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1920.%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)|
 |1929. 소수 구하기|[문제 보러가기](./%EB%B0%B1%EC%A4%80/Silver/1929.%E2%80%85%EC%86%8C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%86%8C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.java)|
