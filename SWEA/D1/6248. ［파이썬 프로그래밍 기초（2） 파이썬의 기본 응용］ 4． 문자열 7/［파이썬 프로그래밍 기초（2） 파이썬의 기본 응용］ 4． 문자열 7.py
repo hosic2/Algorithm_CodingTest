@@ -1,0 +1,1 @@
+print(''.join(j for i, j in enumerate(input()) if i % 2 == 0))
